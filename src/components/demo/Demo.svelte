@@ -3,7 +3,7 @@
 	import DemoScrolly from "$components/demo/Demo.Scrolly.svelte";
 	import DemoImages from "$components/demo/Demo.Images.svelte";
 	import DemoVideo from "$components/demo/Demo.Video.svelte";
-
+	import TileMap from "$components/demo/TileMap.svelte";
 	/*
 		This is a demonstration of all the helper components.
 	*/
@@ -40,6 +40,10 @@
 
 		<section>
 			<DemoScrolly />
+		</section>
+
+		<section>
+			<TileMap />
 		</section>
 	</div>
 </div>

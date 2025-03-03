@@ -16,7 +16,8 @@
 		"Everything in the container with class 'sticky' will stay put, while these steps scroll over it.",
 		"You could put images, videos, charts, or anything in that 'sticky' container.",
 		"You can have it update based on what step we're on, which is tracked in the variable called value.",
-		"Have fun!"
+		"Have fun!",
+		"Wuhu"
 	];
 </script>
 
