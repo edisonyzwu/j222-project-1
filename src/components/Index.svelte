@@ -1,7 +1,8 @@
 <script>
-	import Demo from "$components/demo/Demo.svelte";
+	import Header from "$components/Header.svelte";
+	import Project from "$components/project/Project.svelte";
 	import Footer from "$components/Footer.svelte";
 </script>
 
-<Demo />
+<Project />
 <Footer />

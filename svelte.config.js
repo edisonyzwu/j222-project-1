@@ -14,7 +14,10 @@ const config = {
 	},
 	preprocess,
 	kit: {
-		adapter: adapterStatic({ strict: false })
+		adapter: adapterStatic({ strict: false }),
+		prerender: {
+			handleMissingId: "warn" // 让 SvelteKit 只是警告，而不是报错
+		}
 	}
 };
 
